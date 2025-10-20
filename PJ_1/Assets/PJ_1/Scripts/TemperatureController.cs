@@ -15,11 +15,11 @@ public class TemperatureController : MonoBehaviour
     public float maxTemperature = 40f;
     
     [Header("Weather Icons")]
-    public Sprite snowIcon;      // ❄️ 눈 (영하)
-    public Sprite coldIcon;      // 🌨️ 추움 (0~10도)
-    public Sprite mildIcon;      // 🌤️ 선선 (10~20도)
-    public Sprite warmIcon;      // ☀️ 따뜻 (20~30도)
-    public Sprite hotIcon;       // 🔥 더움 (30도 이상)
+    public Sprite snowIcon;
+    public Sprite coldIcon;   
+    public Sprite mildIcon;    
+    public Sprite warmIcon;      
+    public Sprite hotIcon;   
     
     void Start()
     {
